@@ -1,0 +1,3 @@
+# Description
+We have a class sanmed Solution. The class constructor takes 2 dimentional jagged array as parameter and assignes it to "A" field.
+Solution method works for geting through the array and counting the countries. We have the recursive "checkNeighbor" method, that finds all occurencies of the same int (country indentifier). The "checkNeighbor" methods turns checked values to -2000000000 to mark them as checked. The reason of such value selection is given range in task description [-1000000000, 1000000000]. Then "solution" method counts all non checked values and triggrs recursive "checkNeighbor"
